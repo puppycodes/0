@@ -1,3 +1,3 @@
-# poetry by Alice 🌱
+# poems by alice 🌱
 
 puppycodes
