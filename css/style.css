@@ -2,19 +2,24 @@
 
 @font-face {
 	font-family: 'Nitti';
-	src: url('Nitti.eot');
-	src: url('Nitti.eot?#iefix') format('embedded-opentype'),
-		url('Nitti.woff') format('woff'),
-		url('Nitti.ttf') format('truetype');
+	src: url('../fonts/Nitti.eot');
+	src: url('../fonts/Nitti.eot?#iefix') format('embedded-opentype');
+	src:	url('../fonts/Nitti.woff') format('woff');
+	src: url('../fonts/Nitti.ttf') format('truetype');
+
 	font-weight: normal;
 	font-style: normal;
+}
+
+body {
+	background-color: #1A1A1A;
 }
 
 
 .ace_editor {
     position: relative;
     overflow: hidden;
-    font: 25px/normal 'Nitti' !important;
+    font: 20px/normal 'Nitti' !important;
     direction: ltr;
     text-align: left;
 }
@@ -22,10 +27,10 @@
 
 #editor {
   position: absolute;
-  top: 0;
+  top: 10%;
   right: 0;
   bottom: 0;
-  left: 0;
+  left: 10%;
   display: none;
 
 }

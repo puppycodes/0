@@ -22,7 +22,7 @@ $(function() {
     // This function will return the user theme or the Monokai theme (which
     // is the default)
     function getTheme() {
-        
+
     }
 
     // Select the desired theme of the editor
@@ -164,7 +164,7 @@ $(function() {
         if (val === null) {
             // ...we will initialize a new one.
             // ...with this content:
-            val = "/* 0 */";
+            val = "";
 
             // Here's where we set the initial content of the editor
             editorValues.child(editorId).set({
